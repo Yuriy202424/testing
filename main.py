@@ -14,4 +14,4 @@ for hero_key, hero_value in heroes.items():
 • Атака - {hero_value.strength}
 • Тип - {hero_value.Htype}\n
 ''')
-
+print("Hello Welcome!")
