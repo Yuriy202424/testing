@@ -15,3 +15,4 @@ for hero_key, hero_value in heroes.items():
 • Тип - {hero_value.Htype}\n
 ''')
 print("Hello Welcome!")
+prind("Hello")
