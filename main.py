@@ -14,5 +14,13 @@ for hero_key, hero_value in heroes.items():
 • Атака - {hero_value.strength}
 • Тип - {hero_value.Htype}\n
 ''')
-print("Hello Welcome!")
-prind("Hello")
+    
+print('''\033[0;43mВыберите Персонажа:\033[0m
+• Л - Лолыч
+''')
+
+
+
+while monster_1.hp > 0 or hero_1.hp > 0:
+    input(hero_1.name + ', Нажми ENTER Для Атаки\n')
+    print('Атака')
