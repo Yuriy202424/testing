@@ -2,16 +2,14 @@ import random
 
 class Hero:
 
-    def __init__(self, name, hp, strength, Htype=None) :
+    def __init__(self, name, hp, strength) :
         self.name = name
         self.hp = hp
         self.strength = strength
-        self.Htype = Htype
-
 
 
 class Monster:
-    def __init__(self, Htype, hp, strength) :
-        self.Htype = Htype
+    def __init__(self, name , hp, strength) :
+        self.name = name
         self.hp = hp
         self.strength = strength
